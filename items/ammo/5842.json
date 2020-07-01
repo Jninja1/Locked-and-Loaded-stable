@@ -15,7 +15,8 @@
     "ammo_type": "5842",
     "casing": "5842_casing",
     "range": 44,
-    "damage": { "damage_type": "bullet", "amount": 21, "armor_penetration": 10 },
+    "damage": 21, 
+    "pierce": 10,
     "dispersion": 35,
     "recoil": 250
     },
@@ -26,7 +27,8 @@
     "name": "5.8x42mm black powder",
     "proportional": {
         "price": 0.3,
-        "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+        "damage": 0.76,
+        "pierce": 0.5 ,
         "recoil": 0.76,
         "dispersion": 1.2 
     },
@@ -48,7 +50,8 @@
     "ammo_type": "5842",
     "casing": "5842_casing",
     "range": 44,
-    "damage": { "damage_type": "bullet", "amount": 25, "armor_penetration": 15 },
+    "damage": 25, 
+    "pierce": 15,
     "dispersion": 45,
     "recoil": 300
     },
@@ -59,7 +62,8 @@
     "name": "5.8x42mm heavy black powder",
     "proportional": { 
         "price": 0.3,
-        "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 }, 
+        "damage": 0.76, 
+        "pierce": 0.5 , 
         "recoil": 0.76, 
         "dispersion": 1.2 
     },
